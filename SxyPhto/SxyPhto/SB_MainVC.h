@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GooeySlideMenu.h"
 
 @interface SB_MainVC : UIViewController
 

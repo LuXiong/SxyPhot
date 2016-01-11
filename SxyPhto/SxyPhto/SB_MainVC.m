@@ -10,13 +10,20 @@
 
 @interface SB_MainVC ()
 
+@property(nonatomic, strong) GooeySlideMenu * menu;
+
 @end
 
 @implementation SB_MainVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.menu = [[GooeySlideMenu alloc]initWithTitles:@[@"首页",@"消息",@"发布",@"发现",@"个人",@"设置"]];
+    self.menu.menuClickBlock = ^(NSInteger index,NSString *title,NSInteger titleCounts){
+        
+        NSLog(@"index:%ld title:%@ titleCounts:%ld",index,title,titleCounts);
+    };
+    [self.menu trigger];
 }
 
 - (void)didReceiveMemoryWarning {
