@@ -36,6 +36,9 @@
 		DBE4E6281C438B9600C0F12A /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE4E6151C438B9600C0F12A /* UIProgressView+AFNetworking.m */; };
 		DBE4E6291C438B9600C0F12A /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE4E6171C438B9600C0F12A /* UIRefreshControl+AFNetworking.m */; };
 		DBE4E62A1C438B9600C0F12A /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE4E6191C438B9600C0F12A /* UIWebView+AFNetworking.m */; };
+		DBE4E6361C439AC900C0F12A /* RB_BusinessHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE4E6311C439AC900C0F12A /* RB_BusinessHandler.m */; };
+		DBE4E63B1C439B6500C0F12A /* SP_Client.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE4E63A1C439B6500C0F12A /* SP_Client.m */; };
+		DBE4E63E1C43AE3100C0F12A /* SP_BaseBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE4E63D1C43AE3100C0F12A /* SP_BaseBusiness.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +118,12 @@
 		DBE4E6171C438B9600C0F12A /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		DBE4E6181C438B9600C0F12A /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		DBE4E6191C438B9600C0F12A /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		DBE4E6301C439AC900C0F12A /* RB_BusinessHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RB_BusinessHandler.h; sourceTree = "<group>"; };
+		DBE4E6311C439AC900C0F12A /* RB_BusinessHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RB_BusinessHandler.m; sourceTree = "<group>"; };
+		DBE4E6391C439B6500C0F12A /* SP_Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SP_Client.h; sourceTree = "<group>"; };
+		DBE4E63A1C439B6500C0F12A /* SP_Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SP_Client.m; sourceTree = "<group>"; };
+		DBE4E63C1C43AE3100C0F12A /* SP_BaseBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SP_BaseBusiness.h; sourceTree = "<group>"; };
+		DBE4E63D1C43AE3100C0F12A /* SP_BaseBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SP_BaseBusiness.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +174,8 @@
 		2D3E77CB1C328596002B45E6 /* SxyPhto */ = {
 			isa = PBXGroup;
 			children = (
+				DBE4E6381C439B4400C0F12A /* SP_Networking */,
+				DBE4E62B1C439AC900C0F12A /* Business */,
 				DBE4E5F41C438B9600C0F12A /* AFNetworking */,
 				DBE4E6081C438B9600C0F12A /* UIKit+AFNetworking */,
 				DBC122E61C3E52BB00793C4B /* SlideMenu */,
@@ -279,6 +290,26 @@
 			path = "UIKit+AFNetworking";
 			sourceTree = "<group>";
 		};
+		DBE4E62B1C439AC900C0F12A /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				DBE4E63C1C43AE3100C0F12A /* SP_BaseBusiness.h */,
+				DBE4E63D1C43AE3100C0F12A /* SP_BaseBusiness.m */,
+				DBE4E6301C439AC900C0F12A /* RB_BusinessHandler.h */,
+				DBE4E6311C439AC900C0F12A /* RB_BusinessHandler.m */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		DBE4E6381C439B4400C0F12A /* SP_Networking */ = {
+			isa = PBXGroup;
+			children = (
+				DBE4E6391C439B6500C0F12A /* SP_Client.h */,
+				DBE4E63A1C439B6500C0F12A /* SP_Client.m */,
+			);
+			path = SP_Networking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -346,6 +377,7 @@
 				TargetAttributes = {
 					2D3E77C81C328596002B45E6 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LUT9P67YCC;
 					};
 					2D3E77E11C328596002B45E6 = {
 						CreatedOnToolsVersion = 7.2;
@@ -414,6 +446,7 @@
 				DBC122EC1C3E532F00793C4B /* SlideMenuButton.m in Sources */,
 				2D3E78381C32B093002B45E6 /* SB_MainVC.m in Sources */,
 				DBE4E61D1C438B9600C0F12A /* AFNetworkReachabilityManager.m in Sources */,
+				DBE4E6361C439AC900C0F12A /* RB_BusinessHandler.m in Sources */,
 				DBE4E6231C438B9600C0F12A /* AFNetworkActivityIndicatorManager.m in Sources */,
 				2D3E77D11C328596002B45E6 /* AppDelegate.m in Sources */,
 				DBE4E61F1C438B9600C0F12A /* AFURLConnectionOperation.m in Sources */,
@@ -424,10 +457,12 @@
 				DBE4E6261C438B9600C0F12A /* UIButton+AFNetworking.m in Sources */,
 				DBE4E6271C438B9600C0F12A /* UIImageView+AFNetworking.m in Sources */,
 				2D3E77CE1C328596002B45E6 /* main.m in Sources */,
+				DBE4E63B1C439B6500C0F12A /* SP_Client.m in Sources */,
 				DBC122EB1C3E532F00793C4B /* GooeySlideMenu.m in Sources */,
 				DBE4E6251C438B9600C0F12A /* UIAlertView+AFNetworking.m in Sources */,
 				DBE4E62A1C438B9600C0F12A /* UIWebView+AFNetworking.m in Sources */,
 				DBE4E6241C438B9600C0F12A /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				DBE4E63E1C43AE3100C0F12A /* SP_BaseBusiness.m in Sources */,
 				DBE4E61B1C438B9600C0F12A /* AFHTTPRequestOperationManager.m in Sources */,
 				DBE4E6291C438B9600C0F12A /* UIRefreshControl+AFNetworking.m in Sources */,
 				DBE4E61E1C438B9600C0F12A /* AFSecurityPolicy.m in Sources */,
@@ -553,11 +588,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SxyPhto/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-500.com.SxyPhto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -567,11 +605,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SxyPhto/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-500.com.SxyPhto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
