@@ -10,7 +10,7 @@
 
 @implementation RB_BusinessHandler
 
--(instancetype)initWithBlockStart:(StartBlock)startRequest success:(SuccessBlock)successRequest fail:(FailBlock)failRequest complete:(CompleteBlock)completeRequest{
+-(instancetype)initWithBlockStart:(Start)startRequest success:(Success)successRequest fail:(Fail)failRequest complete:(Complete)completeRequest{
     RB_BusinessHandler * handler = [self init];
     if (handler) {
         handler->start = startRequest;
@@ -39,9 +39,9 @@
     };
 }
 
--(void)onRequestComplete:(id)data{
+-(void)onRequestComplete{
     if (complete) {
-        complete(data);
+        complete();
     };
 }
 @end

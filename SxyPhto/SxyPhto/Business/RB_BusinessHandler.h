@@ -8,20 +8,22 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void (^StartBlock)();
+typedef void (^Start)();
 
-typedef void (^SuccessBlock)(id obj);
+typedef void (^Success)(id obj);
 
-typedef void (^FailBlock)(id obj);
+typedef void (^Fail)(id obj);
 
-typedef void (^CompleteBlock)(id obj);
+typedef void (^Complete)();
 
 @interface RB_BusinessHandler : NSObject{
-    StartBlock              start;
-    SuccessBlock            success;
-    FailBlock               fail;
-    CompleteBlock           complete;
+    Start               start;
+    Success             success;
+    Fail                fail;
+    Complete            complete;
 }
+
+-(instancetype)initWithBlockStart:(Start)startRequest success:(Success)successRequest fail:(Fail)failRequest complete:(Complete)completeRequest;
 
 -(void)onRequestStart;
 
@@ -29,6 +31,6 @@ typedef void (^CompleteBlock)(id obj);
 
 -(void)onRequestFail:(id)data;
 
--(void)onRequestComplete:(id)data;
+-(void)onRequestComplete;
 
 @end

@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "AFNetworking.h"
 
-#define BASE_URL @"http://www.tngou.net/api/favorite/"
+#define BASE_URL @"http://www.tngou.net"
 
 typedef void (^SuccessBlock)(AFHTTPRequestOperation *operation, id responseObject);
 typedef void (^FailureBlock)(AFHTTPRequestOperation *operation, NSError *error);

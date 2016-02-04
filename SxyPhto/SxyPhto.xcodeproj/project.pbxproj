@@ -17,6 +17,11 @@
 		2D3E78241C32A997002B45E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3E78231C32A997002B45E6 /* Images.xcassets */; };
 		2D3E78381C32B093002B45E6 /* SB_MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3E78361C32B093002B45E6 /* SB_MainVC.m */; };
 		2D3E78391C32B093002B45E6 /* SB_MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3E78371C32B093002B45E6 /* SB_MainVC.xib */; };
+		DB940E3E1C5F3E770039D5D5 /* NSArray+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = DB940E391C5F3E770039D5D5 /* NSArray+HYBUnicodeReadable.m */; };
+		DB940E3F1C5F3E770039D5D5 /* NSDictionary+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = DB940E3B1C5F3E770039D5D5 /* NSDictionary+HYBUnicodeReadable.m */; };
+		DB940E401C5F3E770039D5D5 /* NSSet+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = DB940E3D1C5F3E770039D5D5 /* NSSet+HYBUnicodeReadable.m */; };
+		DB940E441C5F435E0039D5D5 /* SP_M_CategoryName.m in Sources */ = {isa = PBXBuildFile; fileRef = DB940E431C5F435E0039D5D5 /* SP_M_CategoryName.m */; };
+		DBA36C661C46077700BDDC78 /* SP_MainBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA36C651C46077700BDDC78 /* SP_MainBusiness.m */; };
 		DBC122EB1C3E532F00793C4B /* GooeySlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC122E81C3E532F00793C4B /* GooeySlideMenu.m */; };
 		DBC122EC1C3E532F00793C4B /* SlideMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC122EA1C3E532F00793C4B /* SlideMenuButton.m */; };
 		DBE4E61A1C438B9600C0F12A /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE4E5F61C438B9600C0F12A /* AFHTTPRequestOperation.m */; };
@@ -78,6 +83,16 @@
 		2D3E78351C32B093002B45E6 /* SB_MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SB_MainVC.h; sourceTree = "<group>"; };
 		2D3E78361C32B093002B45E6 /* SB_MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SB_MainVC.m; sourceTree = "<group>"; };
 		2D3E78371C32B093002B45E6 /* SB_MainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SB_MainVC.xib; sourceTree = "<group>"; };
+		DB940E381C5F3E770039D5D5 /* NSArray+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		DB940E391C5F3E770039D5D5 /* NSArray+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		DB940E3A1C5F3E770039D5D5 /* NSDictionary+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		DB940E3B1C5F3E770039D5D5 /* NSDictionary+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		DB940E3C1C5F3E770039D5D5 /* NSSet+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		DB940E3D1C5F3E770039D5D5 /* NSSet+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		DB940E421C5F435E0039D5D5 /* SP_M_CategoryName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SP_M_CategoryName.h; sourceTree = "<group>"; };
+		DB940E431C5F435E0039D5D5 /* SP_M_CategoryName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SP_M_CategoryName.m; sourceTree = "<group>"; };
+		DBA36C641C46077700BDDC78 /* SP_MainBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SP_MainBusiness.h; sourceTree = "<group>"; };
+		DBA36C651C46077700BDDC78 /* SP_MainBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SP_MainBusiness.m; sourceTree = "<group>"; };
 		DBC122E71C3E532F00793C4B /* GooeySlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooeySlideMenu.h; sourceTree = "<group>"; };
 		DBC122E81C3E532F00793C4B /* GooeySlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooeySlideMenu.m; sourceTree = "<group>"; };
 		DBC122E91C3E532F00793C4B /* SlideMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenuButton.h; sourceTree = "<group>"; };
@@ -174,6 +189,8 @@
 		2D3E77CB1C328596002B45E6 /* SxyPhto */ = {
 			isa = PBXGroup;
 			children = (
+				DB940E411C5F424A0039D5D5 /* Model */,
+				DB940E371C5F3E770039D5D5 /* HYBUnicodeReadable */,
 				DBE4E6381C439B4400C0F12A /* SP_Networking */,
 				DBE4E62B1C439AC900C0F12A /* Business */,
 				DBE4E5F41C438B9600C0F12A /* AFNetworking */,
@@ -227,6 +244,28 @@
 				2D3E78211C32A980002B45E6 /* app_launch.jpg */,
 			);
 			path = sources;
+			sourceTree = "<group>";
+		};
+		DB940E371C5F3E770039D5D5 /* HYBUnicodeReadable */ = {
+			isa = PBXGroup;
+			children = (
+				DB940E381C5F3E770039D5D5 /* NSArray+HYBUnicodeReadable.h */,
+				DB940E391C5F3E770039D5D5 /* NSArray+HYBUnicodeReadable.m */,
+				DB940E3A1C5F3E770039D5D5 /* NSDictionary+HYBUnicodeReadable.h */,
+				DB940E3B1C5F3E770039D5D5 /* NSDictionary+HYBUnicodeReadable.m */,
+				DB940E3C1C5F3E770039D5D5 /* NSSet+HYBUnicodeReadable.h */,
+				DB940E3D1C5F3E770039D5D5 /* NSSet+HYBUnicodeReadable.m */,
+			);
+			path = HYBUnicodeReadable;
+			sourceTree = "<group>";
+		};
+		DB940E411C5F424A0039D5D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB940E421C5F435E0039D5D5 /* SP_M_CategoryName.h */,
+				DB940E431C5F435E0039D5D5 /* SP_M_CategoryName.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DBC122E61C3E52BB00793C4B /* SlideMenu */ = {
@@ -295,6 +334,8 @@
 			children = (
 				DBE4E63C1C43AE3100C0F12A /* SP_BaseBusiness.h */,
 				DBE4E63D1C43AE3100C0F12A /* SP_BaseBusiness.m */,
+				DBA36C641C46077700BDDC78 /* SP_MainBusiness.h */,
+				DBA36C651C46077700BDDC78 /* SP_MainBusiness.m */,
 				DBE4E6301C439AC900C0F12A /* RB_BusinessHandler.h */,
 				DBE4E6311C439AC900C0F12A /* RB_BusinessHandler.m */,
 			);
@@ -377,7 +418,7 @@
 				TargetAttributes = {
 					2D3E77C81C328596002B45E6 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = LUT9P67YCC;
+						DevelopmentTeam = JQ2Z4N7TAC;
 					};
 					2D3E77E11C328596002B45E6 = {
 						CreatedOnToolsVersion = 7.2;
@@ -446,6 +487,7 @@
 				DBC122EC1C3E532F00793C4B /* SlideMenuButton.m in Sources */,
 				2D3E78381C32B093002B45E6 /* SB_MainVC.m in Sources */,
 				DBE4E61D1C438B9600C0F12A /* AFNetworkReachabilityManager.m in Sources */,
+				DB940E441C5F435E0039D5D5 /* SP_M_CategoryName.m in Sources */,
 				DBE4E6361C439AC900C0F12A /* RB_BusinessHandler.m in Sources */,
 				DBE4E6231C438B9600C0F12A /* AFNetworkActivityIndicatorManager.m in Sources */,
 				2D3E77D11C328596002B45E6 /* AppDelegate.m in Sources */,
@@ -456,11 +498,15 @@
 				2D3E780F1C32A050002B45E6 /* SP_BOOT.m in Sources */,
 				DBE4E6261C438B9600C0F12A /* UIButton+AFNetworking.m in Sources */,
 				DBE4E6271C438B9600C0F12A /* UIImageView+AFNetworking.m in Sources */,
+				DBA36C661C46077700BDDC78 /* SP_MainBusiness.m in Sources */,
 				2D3E77CE1C328596002B45E6 /* main.m in Sources */,
 				DBE4E63B1C439B6500C0F12A /* SP_Client.m in Sources */,
 				DBC122EB1C3E532F00793C4B /* GooeySlideMenu.m in Sources */,
 				DBE4E6251C438B9600C0F12A /* UIAlertView+AFNetworking.m in Sources */,
 				DBE4E62A1C438B9600C0F12A /* UIWebView+AFNetworking.m in Sources */,
+				DB940E3F1C5F3E770039D5D5 /* NSDictionary+HYBUnicodeReadable.m in Sources */,
+				DB940E401C5F3E770039D5D5 /* NSSet+HYBUnicodeReadable.m in Sources */,
+				DB940E3E1C5F3E770039D5D5 /* NSArray+HYBUnicodeReadable.m in Sources */,
 				DBE4E6241C438B9600C0F12A /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				DBE4E63E1C43AE3100C0F12A /* SP_BaseBusiness.m in Sources */,
 				DBE4E61B1C438B9600C0F12A /* AFHTTPRequestOperationManager.m in Sources */,
