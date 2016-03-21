@@ -20,4 +20,18 @@
     return self;
 }
 
+-(instancetype)initWithJsonString:(NSData *)json{
+    self = [super init];
+    if (self) {
+        
+        NSDictionary * dic = [[NSDictionary alloc] init];
+        dic = [NSJSONSerialization JSONObjectWithData:json options:NSJSONReadingMutableLeaves error:nil];
+        if ([NSDictionary isAvailableDictionary:dic]) {
+            self.str_name = dic[@"name"];
+            self.str_id = dic[@"id"];
+        }
+    }
+    return self;
+}
+
 @end

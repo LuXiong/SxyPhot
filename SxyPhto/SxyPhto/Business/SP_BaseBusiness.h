@@ -10,21 +10,23 @@
 #import "RB_BusinessHandler.h"
 #import "SP_Client.h"
 
+typedef void (^Start)();
+
+typedef void (^Success)(id obj);
+
+typedef void (^Fail)(id obj);
+
+typedef void (^Complete)();
+
 @interface SP_BaseBusiness : NSObject
 
-@property(nonatomic, strong) RB_BusinessHandler * mHandler;
+@property(weak,nonatomic) UIViewController * vc_current;
 
--(instancetype)initWithHandler:(RB_BusinessHandler *)handler;
+//公共方法,这里只是简单设计一下，具体情况下实现
+-(void)fetchToken;
 
--(void)requestUrl:(NSString *)requestId
-        parameter:(NSDictionary *)params;
+-(void)fetchCertification;
 
--(void)requestStart;
-
--(void)requestSuccess:(id)data;
-
--(void)requestFailure:(id)data;
-
--(void)requestComplete;
+-(void)innervate;
 
 @end

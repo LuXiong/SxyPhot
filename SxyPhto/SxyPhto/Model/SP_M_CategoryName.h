@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SP_BaseModel.h"
 
-@interface SP_M_CategoryName : NSObject
+@interface SP_M_CategoryName : SP_BaseModel
 
 @property (strong, nonatomic) NSString * str_name;
 @property (strong, nonatomic) NSString * str_id;

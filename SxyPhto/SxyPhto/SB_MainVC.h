@@ -9,8 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "GooeySlideMenu.h"
 #import "RB_BusinessHandler.h"
+#import "UIView+Custom.h"
+#import "SVPullToRefresh.h"
 #import "SP_MainBusiness.h"
+#import "MainCell.h"
+#import "CHTCollectionViewWaterfallLayout.h"
+#import "UIImageView+AFNetworking.h"
 
-@interface SB_MainVC : UIViewController
+@interface SB_MainVC : UIViewController<UICollectionViewDataSource, CHTCollectionViewDelegateWaterfallLayout>
 
 @end
